@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.container{
+  max-width: 1219px;
+  margin: 0 auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+
+h2 {
+  color: #007765;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+}
+
+.text {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+  padding-bottom: 92px;
+}
+
+.header {
+  background-color: #007765;
+}
+
+.header-container {
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+}
+
+.nav-list {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.nav-item a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.jumbotron {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url("../img/jumb.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.jumbotron-title {
+  font-weight: 500;
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.problem {
+  background-color: #eee;
+}
+
+.hero{
+  display: flex;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-message{
+  max-width: 895px;
+  font-style: italic;
+  line-height: 56px;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  color:#fff;
+}
+
+.logo-ppc {
+  float: left;
+  padding-right: 48px;
+  display: inline;
+}
+
+.introducing-text {
+  display: flex;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trademarks {
+  align-self: center;
+  margin-top: 48px;
+  margin-bottom: 64px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 540px;
+  width: 100%;
+}
+
