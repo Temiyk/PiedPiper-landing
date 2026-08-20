@@ -119,8 +119,43 @@ h2 {
   display: inline;
 }
 
-.introducing-text {
+.team {
+  background-color: #eee;
+}
+
+.team-items {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 92px;
+}
+
+.team-item {
+  flex: 0 0 calc(33.333% - 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-item img {
+  margin-bottom: 12px;
+}
+
+.team-item-info {
+  text-align: center;
+}
+
+.team-item-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #007765;
+  margin: 0 auto;
+}
+
+.team-item-description {
+  font-size: 18px;
 }
 
 .footer {
